@@ -1,0 +1,46 @@
+@import url("./geral.css");
+@import url("./navbar.css");
+
+.descricao-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+  background: rgb(22, 22, 22);
+  margin-top: 80px;
+  border-radius: 10px;
+  gap: 20px;
+  text-align: center;
+  padding: 200px 100px;
+}
+
+.descricao-contato img {
+  border-radius: 10px;
+}
+
+.contato {
+  display: grid;
+  align-self: center;
+}
+
+.descricao-contato h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.descricao-contato p {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.social img {
+  width: 36px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}

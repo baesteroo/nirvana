@@ -1,0 +1,32 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.descricao {
+  padding: 35px 40px;
+  color: white;
+}
+
+.descricao h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+}
+
+.descricao p {
+  font-size: 20px;
+  padding: 5px 150px 0px 40px;
+}
+
+.descricao a {
+  border-bottom: 2px solid transparent;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.descricao a {
+    transition: 0.3s;
+    border-color: rgb(255, 0, 0);
+    color: red;
+}

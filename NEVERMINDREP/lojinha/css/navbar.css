@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #700808;
+  color: #fff;
+}
+
+.nav-item {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-right: 40px;
+}
+.nav-item li {
+  border-bottom: 2px solid transparent;
+}
+.nav-item li:hover {
+  transition: 0.3s;
+  border-color: white;
+}
+
+.logo {
+  width: 300px;
+}
+
+.lupa {
+  width: 40px;
+}
+
+.lupa:hover {
+  cursor: pointer;
+}
